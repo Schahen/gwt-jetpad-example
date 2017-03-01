@@ -52,7 +52,7 @@
     </dependency>
 
     <dependency>
-      <groupId>org.shabunc</groupId>
+      <groupId>org.jetbrains.gwt</groupId>
       <artifactId>processors</artifactId>
       <version>1.0-SNAPSHOT</version>
       <optional>true</optional>
@@ -78,7 +78,7 @@
         <configuration>
           <processors>
             <!-- list of processors to use -->
-            <processor>org.shabunc.annlesson.processors.LessProcessor</processor>
+            <processor>org.jetbrains.gwt.processors.LessProcessor</processor>
           </processors>
         </configuration>
       </plugin>
