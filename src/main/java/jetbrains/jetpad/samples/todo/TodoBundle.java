@@ -9,8 +9,8 @@ public interface TodoBundle extends ClientBundle {
 
     @CssResource.NotStrict
     @Source({
-            "jetbrains/jetpad/samples/todo/resources/base.gss",
-            "jetbrains/jetpad/samples/todo/resources/todo.gss"
+        "base.gss",
+        "todo.gss"
     })
     CssResource styles();
 }
